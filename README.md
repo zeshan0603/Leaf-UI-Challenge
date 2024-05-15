@@ -19,6 +19,3 @@ This repository contains the solution for the Leaf UI Challenge, an internship a
 ## Features
 - Responsive design for desktop and mobile devices.
 - Client-side validation to prevent submission of empty input fields and check for invalid usernames or emails.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](/path/to/LICENSE) file for details.
