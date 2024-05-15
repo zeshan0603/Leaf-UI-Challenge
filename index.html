@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- FONTS -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/media.css">
+    <!-- CSS -->
+
+</head>
+
+<body>
+    <!-- SIGNUP SECTION -->
+    <section id="signUp" class="signUp">
+
+        <div class="signUp_imgContainer">
+            <img class="hero-image-desktop" src="./assets/images/hero-image.webp" alt="hero image" loading="eager"
+                width="400" height="400">
+        </div>
+
+        <div class="signUp_Container">
+
+            <div class="logo">
+                <img src="./assets/images/leaf.png" alt="leaf icon" loading="eager" width="23" height="23">
+                <span>Leaf</span>
+            </div>
+
+            <img class="hero-image-mobile" src="./assets/images/hero-image.webp" alt="hero image" loading="eager"
+                width="400" height="400">
+
+            <h2>Create Account</h2>
+
+            <form id="signUp_Form" class="signUp_Form">
+                <div class="form-field">
+                    <label for="username">Full Name</label>
+                    <span class="icon" id="icon">
+                        <img src="./assets/images/user-icon.png" alt="user icon" loading="eager" height="18" width="18">
+                    </span>
+                    <input type="text" name="username" id="username" autocomplete="off" placeholder="Enter Full Name">
+                    <small>-</small>
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <span class="icon" id="icon">
+                        <img src="./assets/images/mail-icon.png" alt="user icon" loading="eager" height="18" width="18">
+                    </span>
+                    <input type="email" name="email" id="email" autocomplete="off" placeholder="Enter Email">
+                    <small>-</small>
+                </div>
+
+                <div class="form-field">
+                    <label for="password">Password</label>
+                    <span class="icon" id="icon">
+                        <img src="./assets/images/password-icon.png" alt="user icon" loading="eager" height="18"
+                            width="18">
+                    </span>
+                    <input type="password" name="password" id="password" autocomplete="off"
+                        placeholder="Enter Your Password">
+                    <small>-</small>
+                </div>
+
+                <button type="submit" class="signUp--btn">Sign-Up</button>
+            </form>
+
+
+
+            <span>- OR -</span>
+
+            <div class="social_icons">
+                <span class="social--icon">
+                    <img src="./assets/images/google-icon.png" alt="google icon" width="18px" height="18px"
+                        loading="eager">
+                </span>
+                <span class="social--icon">
+                    <img src="./assets/images/facebook-icon.png" alt="google icon" width="18px" height="18px"
+                        loading="eager">
+                </span>
+                <span class="social--icon">
+                    <img src="./assets/images/apple-icon.png" alt="google icon" width="18px" height="18px"
+                        loading="eager">
+                </span>
+            </div>
+
+            <div class="login-link">
+                Already have an account? <a href="login.html">Login</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- SIGNUP SECTION -->
+
+    <script src="./assets/app.js">
+
+    </script>
+
+</body>
+
+
+</html>
