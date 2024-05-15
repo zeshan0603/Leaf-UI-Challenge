@@ -3,7 +3,7 @@
 ## Description
 This repository contains the solution for the Leaf UI Challenge, an internship assignment focused on creating a signup form using Figma UI design. The signup form is designed to be responsive, supporting both desktop and mobile devices. Additionally, client-side validation has been implemented to prevent the submission of empty input fields and check for invalid usernames or emails.
 
-## <a href="https://leaf-ui-zeshan-merchant.netlify.app/" target="_blank">Live UI</a>.
+## <a href="https://leaf-ui-zeshan-merchant.netlify.app/" target="_blank">Live UI</a>
 
 ## Screenshots
 ### Desktop View
