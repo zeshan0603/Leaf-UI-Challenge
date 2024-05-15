@@ -5,10 +5,10 @@ This repository contains the solution for the Leaf UI Challenge, an internship a
 
 ## Screenshots
 ### Desktop View
-![Desktop View](.SS-1.png)
+![Desktop View](./SS-1.png)
 
 ### Mobile View
-![Desktop View](.SS-1.png)
+![Desktop View](./SS-1.png)
 
 ## Technologies Used
 - HTML
